@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644014505269",
+    "firebase_url": "https://drivon-55754.firebaseio.com",
+    "project_id": "drivon-55754",
+    "storage_bucket": "drivon-55754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644014505269:android:54402493b20124a445207c",
+        "android_client_info": {
+          "package_name": "com.putya.idn.drivon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644014505269-4bdaur1nte7qf1bcj96vni7m865u3165.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj47W2Jy88CbLzZ8fTZDjsMm5pVyCT4V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644014505269-4bdaur1nte7qf1bcj96vni7m865u3165.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
