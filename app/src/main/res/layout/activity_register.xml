@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/ellipseimg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hpup" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/drivon" />
+
+    <TextView
+        android:id="@+id/wlcm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ellipseimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/avanir5"
+        android:text="@string/lets"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wlcm"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_user_name_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:hint="@string/text_user_name"
+            android:inputType="text"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/et_user_email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:hint="@string/text_user_email"
+            android:inputType="text"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/et_user_phone_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:hint="@string/text_user_phone"
+            android:inputType="text"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/et_password_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:drawableRight="@drawable/see"
+            android:hint="@string/text_password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/et_confirm_password_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:drawableRight="@drawable/see"
+            android:hint="@string/text_confirm"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/avanir5"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

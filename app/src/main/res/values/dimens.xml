@@ -17,5 +17,8 @@
     <dimen name="_15sp">15sp</dimen>
     <dimen name="_25dp">25dp</dimen>
     <dimen name="_1dp">1dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
     <item name="_05" type="dimen" format="float">0.5</item>
 </resources>

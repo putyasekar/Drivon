@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AuthenticationActivity">
+
+    <EditText
+        android:id="@+id/authentikasiNomerHp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@drawable/btnphone"
+        android:gravity="center"
+        android:hint="@string/enter_your_phone_number"
+        android:importantForAccessibility="no"
+        android:inputType="number"
+        android:textColorHint="@android:color/black"
+        android:textSize="@dimen/_18sp" />
+
+    <TextView
+        android:id="@+id/authentikasiSubmit"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/authentikasiNomerHp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_18sp" />
+</RelativeLayout>

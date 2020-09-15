@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Drivon</string>
+    <string name="welcome">"Welcom back "</string>
+    <string name="text_user_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="dont">Don\'t have an account? Create Now</string>
+    <string name="signin">"Sign in "</string>
+    <string name="or">Or</string>
+    <string name="sign_google">Sign in with Google</string>
+    <string name="text_user_name">Name</string>
+    <string name="text_user_phone">Phone Number</string>
+    <string name="text_confirm">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="lets">Let\'s Get Started!</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="submit">Submit</string>
 </resources>
